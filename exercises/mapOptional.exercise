@@ -1,0 +1,3981 @@
+-- Title: mapOptional
+== section
+=== audio
+exercises/mapOptional/part01.mp3
+=== explanation
+<p>This is our first exercise</p>
+=== frame 3.0
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> error <span class="st">&quot;todo&quot;</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+== section
+=== audio
+exercises/mapOptional/part02.mp3
+=== explanation
+<p>It currently compiles</p>
+=== frame 1.0
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> error <span class="st">&quot;todo&quot;</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> error <span class="st">&quot;todo&quot;</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> error <span class="st">&quot;todo&quot;</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt; 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> error <span class="st">&quot;todo&quot;</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt; :
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> error <span class="st">&quot;todo&quot;</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt; :r
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 3.0
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> error <span class="st">&quot;todo&quot;</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt; :r
+OK
+&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+== section
+=== audio
+exercises/mapOptional/part03.mp3
+=== explanation
+<p>… but it doesn’t do what we want</p>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> error <span class="st">&quot;todo&quot;</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt; :r
+OK
+&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> error <span class="st">&quot;todo&quot;</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt; :r
+OK
+&gt; 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> error <span class="st">&quot;todo&quot;</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt; :r
+OK
+&gt; m
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> error <span class="st">&quot;todo&quot;</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt; :r
+OK
+&gt; ma
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> error <span class="st">&quot;todo&quot;</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt; :r
+OK
+&gt; map
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> error <span class="st">&quot;todo&quot;</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt; :r
+OK
+&gt; mapO
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> error <span class="st">&quot;todo&quot;</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt; :r
+OK
+&gt; mapOp
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> error <span class="st">&quot;todo&quot;</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt; :r
+OK
+&gt; mapOpt
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> error <span class="st">&quot;todo&quot;</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt; :r
+OK
+&gt; mapOpti
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> error <span class="st">&quot;todo&quot;</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt; :r
+OK
+&gt; mapOptio
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> error <span class="st">&quot;todo&quot;</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt; :r
+OK
+&gt; mapOption
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> error <span class="st">&quot;todo&quot;</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt; :r
+OK
+&gt; mapOptiona
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> error <span class="st">&quot;todo&quot;</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt; :r
+OK
+&gt; mapOptional
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> error <span class="st">&quot;todo&quot;</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt; :r
+OK
+&gt; mapOptional 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> error <span class="st">&quot;todo&quot;</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt; :r
+OK
+&gt; mapOptional (
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> error <span class="st">&quot;todo&quot;</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt; :r
+OK
+&gt; mapOptional (+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> error <span class="st">&quot;todo&quot;</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt; :r
+OK
+&gt; mapOptional (+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> error <span class="st">&quot;todo&quot;</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt; :r
+OK
+&gt; mapOptional (+ 1
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> error <span class="st">&quot;todo&quot;</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt; :r
+OK
+&gt; mapOptional (+ 1)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> error <span class="st">&quot;todo&quot;</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt; :r
+OK
+&gt; mapOptional (+ 1) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> error <span class="st">&quot;todo&quot;</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt; :r
+OK
+&gt; mapOptional (+ 1) (
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> error <span class="st">&quot;todo&quot;</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt; :r
+OK
+&gt; mapOptional (+ 1) (F
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> error <span class="st">&quot;todo&quot;</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt; :r
+OK
+&gt; mapOptional (+ 1) (Fu
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> error <span class="st">&quot;todo&quot;</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt; :r
+OK
+&gt; mapOptional (+ 1) (Ful
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> error <span class="st">&quot;todo&quot;</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt; :r
+OK
+&gt; mapOptional (+ 1) (Full
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> error <span class="st">&quot;todo&quot;</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt; :r
+OK
+&gt; mapOptional (+ 1) (Full 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> error <span class="st">&quot;todo&quot;</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt; :r
+OK
+&gt; mapOptional (+ 1) (Full 2
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> error <span class="st">&quot;todo&quot;</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt; :r
+OK
+&gt; mapOptional (+ 1) (Full 2)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 3.0
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> error <span class="st">&quot;todo&quot;</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt; :r
+OK
+&gt; mapOptional (+ 1) (Full 2)
+*** Exception: todo: Course.Optional#mapOptional 
+...
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+== section
+=== explanation
+<p>If we see that we need a function, we write a lambda</p>
+=== frame 1.0
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> error <span class="st">&quot;todo&quot;</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> error <span class="st">&quot;todo&quot;</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> erro <span class="st">&quot;todo&quot;</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> err <span class="st">&quot;todo&quot;</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> er <span class="st">&quot;todo&quot;</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> e <span class="st">&quot;todo&quot;</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span>  <span class="st">&quot;todo&quot;</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \ <span class="st">&quot;todo&quot;</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f <span class="st">&quot;todo&quot;</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f <span class="st">&quot;odo&quot;</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f odo<span class="st">&quot;</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"><span class="st"> </span></a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"><span class="st"> </span></a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"><span class="st"> </span></a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"><span class="st"> </span></a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"><span class="st"> </span></a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"><span class="st"> </span></a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"><span class="st"> </span></a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"><span class="st"> </span></a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"><span class="st"> </span></a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f odo</a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f od</a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o</a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o </a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="fu">-</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> </a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 3.0
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> _</a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+== section
+=== explanation
+<p>We have left a type hole here</p>
+=== frame 3.0
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a><span>
+</span><a class="sourceLine" id="cb1-4" data-line-number="4"><span>mapOptional </span><span class="fu"><span>=</span></span><span> \f o </span><span class="ot"><span>-></span></span><span> <span style="background:#e0f0e0;">_</span></span></a><span>
+</span><a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+== section
+=== explanation
+<p>These type holes can give us some explanation about what needs to go in that space.</p>
+=== frame 1.0
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a><span>
+</span><a class="sourceLine" id="cb1-4" data-line-number="4"><span>mapOptional </span><span class="fu"><span>=</span></span><span> \f o </span><span class="ot"><span>-></span></span><span> <span style="background:#e0f0e0;">_</span></span></a><span>
+</span><a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a><span>
+</span><a class="sourceLine" id="cb1-4" data-line-number="4"><span>mapOptional </span><span class="fu"><span>=</span></span><span> \f o </span><span class="ot"><span>-></span></span><span> <span style="background:#e0f0e0;">_</span></span></a><span>
+</span><a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a><span>
+</span><a class="sourceLine" id="cb1-4" data-line-number="4"><span>mapOptional </span><span class="fu"><span>=</span></span><span> \f o </span><span class="ot"><span>-></span></span><span> <span style="background:#e0f0e0;">_</span></span></a><span>
+</span><a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt; 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a><span>
+</span><a class="sourceLine" id="cb1-4" data-line-number="4"><span>mapOptional </span><span class="fu"><span>=</span></span><span> \f o </span><span class="ot"><span>-></span></span><span> <span style="background:#e0f0e0;">_</span></span></a><span>
+</span><a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt; :
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a><span>
+</span><a class="sourceLine" id="cb1-4" data-line-number="4"><span>mapOptional </span><span class="fu"><span>=</span></span><span> \f o </span><span class="ot"><span>-></span></span><span> <span style="background:#e0f0e0;">_</span></span></a><span>
+</span><a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt; :r
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 1.0
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a><span>
+</span><a class="sourceLine" id="cb1-4" data-line-number="4"><span>mapOptional </span><span class="fu"><span>=</span></span><span> \f o </span><span class="ot"><span>-></span></span><span> <span style="background:#e0f0e0;">_</span></span></a><span>
+</span><a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt; :r
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 3.0
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a><span>
+</span><a class="sourceLine" id="cb1-4" data-line-number="4"><span>mapOptional </span><span class="fu"><span>=</span></span><span> \<span style="background:#f0e0e0;">f</span> <span style="background:#f0e0f0;">o</span> </span><span class="ot"><span>-></span></span><span> <span style="background:#e0f0e0;">_</span></span></a><span>
+</span><a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code><span>> :r
+• Found hole: <span style="background:#e0f0e0;">_</span> :: Optional b
+...
+• Relevant bindings include
+  <span style="background:#f0e0e0;">f</span> :: a -> b
+  <span style="background:#f0e0f0;">o</span> :: Optional a
+ 
+ 
+ 
+ 
+ 
+ 
+ </span></code></pre>
+== section
+=== explanation
+<p>There are two ways to construct an <code>Optional</code>, so we’ll use a <code>case</code> expression to work out which constructor <code>o</code> was built with.</p>
+=== frame 1.0
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a><span>
+</span><a class="sourceLine" id="cb1-4" data-line-number="4"><span>mapOptional </span><span class="fu"><span>=</span></span><span> \<span style="background:#f0e0e0;">f</span> <span style="background:#f0e0f0;">o</span> </span><span class="ot"><span>-></span></span><span> <span style="background:#e0f0e0;">_</span></span></a><span>
+</span><a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> _</a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> </a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> c</a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> ca</a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> cas</a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> </a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o</a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o </a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o o</a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5">  </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5">  <span class="dt">F</span></a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5">  <span class="dt">Fu</span></a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5">  <span class="dt">Ful</span></a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5">  <span class="dt">Full</span></a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5">  <span class="dt">Full</span> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5">  <span class="dt">Full</span> x</a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5">  <span class="dt">Full</span> x </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5">  <span class="dt">Full</span> x <span class="fu">-</span></a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5">  <span class="dt">Full</span> x <span class="ot">-&gt;</span></a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5">  <span class="dt">Full</span> x <span class="ot">-&gt;</span> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5">  <span class="dt">Full</span> x <span class="ot">-&gt;</span> _</a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5">  <span class="dt">Full</span> x <span class="ot">-&gt;</span> _f</a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5">  <span class="dt">Full</span> x <span class="ot">-&gt;</span> _fu</a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5">  <span class="dt">Full</span> x <span class="ot">-&gt;</span> _ful</a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5">  <span class="dt">Full</span> x <span class="ot">-&gt;</span> _full</a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5">  <span class="dt">Full</span> x <span class="ot">-&gt;</span> _full</a>
+<a class="sourceLine" id="cb1-6" data-line-number="6">  </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5">  <span class="dt">Full</span> x <span class="ot">-&gt;</span> _full</a>
+<a class="sourceLine" id="cb1-6" data-line-number="6">  <span class="dt">E</span></a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5">  <span class="dt">Full</span> x <span class="ot">-&gt;</span> _full</a>
+<a class="sourceLine" id="cb1-6" data-line-number="6">  <span class="dt">Em</span></a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5">  <span class="dt">Full</span> x <span class="ot">-&gt;</span> _full</a>
+<a class="sourceLine" id="cb1-6" data-line-number="6">  <span class="dt">Emp</span></a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5">  <span class="dt">Full</span> x <span class="ot">-&gt;</span> _full</a>
+<a class="sourceLine" id="cb1-6" data-line-number="6">  <span class="dt">Empt</span></a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5">  <span class="dt">Full</span> x <span class="ot">-&gt;</span> _full</a>
+<a class="sourceLine" id="cb1-6" data-line-number="6">  <span class="dt">Empty</span></a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5">  <span class="dt">Full</span> x <span class="ot">-&gt;</span> _full</a>
+<a class="sourceLine" id="cb1-6" data-line-number="6">  <span class="dt">Empty</span> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5">  <span class="dt">Full</span> x <span class="ot">-&gt;</span> _full</a>
+<a class="sourceLine" id="cb1-6" data-line-number="6">  <span class="dt">Empty</span> <span class="fu">-</span></a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5">  <span class="dt">Full</span> x <span class="ot">-&gt;</span> _full</a>
+<a class="sourceLine" id="cb1-6" data-line-number="6">  <span class="dt">Empty</span> <span class="ot">-&gt;</span></a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5">  <span class="dt">Full</span> x <span class="ot">-&gt;</span> _full</a>
+<a class="sourceLine" id="cb1-6" data-line-number="6">  <span class="dt">Empty</span> <span class="ot">-&gt;</span> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5">  <span class="dt">Full</span> x <span class="ot">-&gt;</span> _full</a>
+<a class="sourceLine" id="cb1-6" data-line-number="6">  <span class="dt">Empty</span> <span class="ot">-&gt;</span> _</a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5">  <span class="dt">Full</span> x <span class="ot">-&gt;</span> _full</a>
+<a class="sourceLine" id="cb1-6" data-line-number="6">  <span class="dt">Empty</span> <span class="ot">-&gt;</span> _e</a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5">  <span class="dt">Full</span> x <span class="ot">-&gt;</span> _full</a>
+<a class="sourceLine" id="cb1-6" data-line-number="6">  <span class="dt">Empty</span> <span class="ot">-&gt;</span> _em</a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5">  <span class="dt">Full</span> x <span class="ot">-&gt;</span> _full</a>
+<a class="sourceLine" id="cb1-6" data-line-number="6">  <span class="dt">Empty</span> <span class="ot">-&gt;</span> _emp</a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5">  <span class="dt">Full</span> x <span class="ot">-&gt;</span> _full</a>
+<a class="sourceLine" id="cb1-6" data-line-number="6">  <span class="dt">Empty</span> <span class="ot">-&gt;</span> _empt</a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 3.0
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5">  <span class="dt">Full</span> x <span class="ot">-&gt;</span> _full</a>
+<a class="sourceLine" id="cb1-6" data-line-number="6">  <span class="dt">Empty</span> <span class="ot">-&gt;</span> _empty</a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+== section
+=== explanation
+<p>We have named the type holes so that we don’t get confused about which is which.</p>
+=== frame 1.0
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5">  <span class="dt">Full</span> x <span class="ot">-&gt;</span> _full</a>
+<a class="sourceLine" id="cb1-6" data-line-number="6">  <span class="dt">Empty</span> <span class="ot">-&gt;</span> _empty</a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5">  <span class="dt">Full</span> x <span class="ot">-&gt;</span> _full</a>
+<a class="sourceLine" id="cb1-6" data-line-number="6">  <span class="dt">Empty</span> <span class="ot">-&gt;</span> _empty</a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5">  <span class="dt">Full</span> x <span class="ot">-&gt;</span> _full</a>
+<a class="sourceLine" id="cb1-6" data-line-number="6">  <span class="dt">Empty</span> <span class="ot">-&gt;</span> _empty</a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt; 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5">  <span class="dt">Full</span> x <span class="ot">-&gt;</span> _full</a>
+<a class="sourceLine" id="cb1-6" data-line-number="6">  <span class="dt">Empty</span> <span class="ot">-&gt;</span> _empty</a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt; :
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5">  <span class="dt">Full</span> x <span class="ot">-&gt;</span> _full</a>
+<a class="sourceLine" id="cb1-6" data-line-number="6">  <span class="dt">Empty</span> <span class="ot">-&gt;</span> _empty</a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt; :r
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 1.0
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5">  <span class="dt">Full</span> x <span class="ot">-&gt;</span> _full</a>
+<a class="sourceLine" id="cb1-6" data-line-number="6">  <span class="dt">Empty</span> <span class="ot">-&gt;</span> _empty</a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code> &gt; :r
+ • Found hole: _full :: Optional b
+ ...
+ • Relevant bindings include
+   f :: a -&gt; b
+   o :: Optional a
+   x :: a
+
+ • Found hole: _empty :: Optional b
+ ...
+ • Relevant bindings include
+   f :: a -&gt; b
+   o :: Optional a</code></pre>
+=== frame 1.0
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a><span>
+</span><a class="sourceLine" id="cb1-4" data-line-number="4"><span>mapOptional </span><span class="fu"><span>=</span></span><span> \<span style="background:#f0e0e0;">f</span> <span style="background:#f0e0f0;">o</span> </span><span class="ot"><span>-></span></span><span> </span><span class="kw"><span>case</span></span><span> o </span><span class="kw"><span>of</span></span></a><span>
+</span><a class="sourceLine" id="cb1-5" data-line-number="5"><span>  </span><span class="dt"><span>Full</span></span><span> <span style="background:#e0e0f0;">x</span> </span><span class="ot"><span>-></span></span><span> <span style="background:#e0f0e0;">_full</span></span></a><span>
+</span><a class="sourceLine" id="cb1-6" data-line-number="6">  <span class="dt">Empty</span> <span class="ot">-&gt;</span> _empty</a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code><span> > :r
+ • Found hole: <span style="background:#e0f0e0;">_full</span> :: Optional b
+ ...
+ • Relevant bindings include
+   <span style="background:#f0e0e0;">f</span> :: a -> b
+   <span style="background:#f0e0f0;">o</span> :: Optional a
+   <span style="background:#e0e0f0;">x</span> :: a
+
+ • Found hole: _empty :: Optional b
+ ...
+ • Relevant bindings include
+   f :: a -> b
+   o :: Optional a</span></code></pre>
+=== frame 3.0
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a><span>
+</span><a class="sourceLine" id="cb1-4" data-line-number="4"><span>mapOptional </span><span class="fu"><span>=</span></span><span> \<span style="background:#f0e0e0;">f</span> <span style="background:#f0e0f0;">o</span> </span><span class="ot"><span>-></span></span><span> </span><span class="kw"><span>case</span></span><span> o </span><span class="kw"><span>of</span></span></a><span>
+</span><a class="sourceLine" id="cb1-5" data-line-number="5">  <span class="dt">Full</span> x <span class="ot">-&gt;</span> _full</a><span>
+</span><a class="sourceLine" id="cb1-6" data-line-number="6"><span>  </span><span class="dt"><span>Empty</span></span><span> </span><span class="ot"><span>-></span></span><span> <span style="background:#e0f0e0;">_empty</span></span></a><span>
+</span><a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code><span> > :r
+ • Found hole: _full :: Optional b
+ ...
+ • Relevant bindings include
+   f :: a -> b
+   o :: Optional a
+   x :: a
+
+ • Found hole: <span style="background:#e0f0e0;">_empty</span> :: Optional b
+ ...
+ • Relevant bindings include
+   <span style="background:#f0e0e0;">f</span> :: a -> b
+   <span style="background:#f0e0f0;">o</span> :: Optional a</span></code></pre>
+== section
+=== explanation
+<p>The <code>Optional</code> <code>o</code> was built with either the <code>Full</code> constructor or the <code>Empty</code> constructor.</p>
+=== frame 1.0
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a><span>
+</span><a class="sourceLine" id="cb1-4" data-line-number="4"><span>mapOptional </span><span class="fu"><span>=</span></span><span> \<span style="background:#f0e0e0;">f</span> <span style="background:#f0e0f0;">o</span> </span><span class="ot"><span>-></span></span><span> </span><span class="kw"><span>case</span></span><span> o </span><span class="kw"><span>of</span></span></a><span>
+</span><a class="sourceLine" id="cb1-5" data-line-number="5">  <span class="dt">Full</span> x <span class="ot">-&gt;</span> _full</a><span>
+</span><a class="sourceLine" id="cb1-6" data-line-number="6"><span>  </span><span class="dt"><span>Empty</span></span><span> </span><span class="ot"><span>-></span></span><span> <span style="background:#e0f0e0;">_empty</span></span></a><span>
+</span><a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5">  <span class="dt">Full</span> x <span class="ot">-&gt;</span> _full</a>
+<a class="sourceLine" id="cb1-6" data-line-number="6">  <span class="dt">Empty</span> <span class="ot">-&gt;</span> _empty</a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5">  <span class="dt">Full</span> x <span class="ot">-&gt;</span> _ful</a>
+<a class="sourceLine" id="cb1-6" data-line-number="6">  <span class="dt">Empty</span> <span class="ot">-&gt;</span> _empty</a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5">  <span class="dt">Full</span> x <span class="ot">-&gt;</span> _fu</a>
+<a class="sourceLine" id="cb1-6" data-line-number="6">  <span class="dt">Empty</span> <span class="ot">-&gt;</span> _empty</a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5">  <span class="dt">Full</span> x <span class="ot">-&gt;</span> _f</a>
+<a class="sourceLine" id="cb1-6" data-line-number="6">  <span class="dt">Empty</span> <span class="ot">-&gt;</span> _empty</a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5">  <span class="dt">Full</span> x <span class="ot">-&gt;</span> _</a>
+<a class="sourceLine" id="cb1-6" data-line-number="6">  <span class="dt">Empty</span> <span class="ot">-&gt;</span> _empty</a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5">  <span class="dt">Full</span> x <span class="ot">-&gt;</span> _</a>
+<a class="sourceLine" id="cb1-6" data-line-number="6">  <span class="dt">Empty</span> <span class="ot">-&gt;</span> _empt</a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5">  <span class="dt">Full</span> x <span class="ot">-&gt;</span> _</a>
+<a class="sourceLine" id="cb1-6" data-line-number="6">  <span class="dt">Empty</span> <span class="ot">-&gt;</span> _emp</a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5">  <span class="dt">Full</span> x <span class="ot">-&gt;</span> _</a>
+<a class="sourceLine" id="cb1-6" data-line-number="6">  <span class="dt">Empty</span> <span class="ot">-&gt;</span> _em</a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5">  <span class="dt">Full</span> x <span class="ot">-&gt;</span> _</a>
+<a class="sourceLine" id="cb1-6" data-line-number="6">  <span class="dt">Empty</span> <span class="ot">-&gt;</span> _e</a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5">  <span class="dt">Full</span> x <span class="ot">-&gt;</span> _</a>
+<a class="sourceLine" id="cb1-6" data-line-number="6">  <span class="dt">Empty</span> <span class="ot">-&gt;</span> _</a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a><span>
+</span><a class="sourceLine" id="cb1-5" data-line-number="5"><span>  </span><span class="dt"><span><span style="background:#e0f0e0;">F</span>ull</span></span><span> x </span><span class="ot"><span>-></span></span><span> _</span></a><span>
+</span><a class="sourceLine" id="cb1-6" data-line-number="6">  <span class="dt">Empty</span> <span class="ot">-&gt;</span> _</a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a><span>
+</span><a class="sourceLine" id="cb1-5" data-line-number="5"><span>  </span><span class="dt"><span><span style="background:#e0f0e0;">Fu</span>ll</span></span><span> x </span><span class="ot"><span>-></span></span><span> _</span></a><span>
+</span><a class="sourceLine" id="cb1-6" data-line-number="6">  <span class="dt">Empty</span> <span class="ot">-&gt;</span> _</a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a><span>
+</span><a class="sourceLine" id="cb1-5" data-line-number="5"><span>  </span><span class="dt"><span><span style="background:#e0f0e0;">Ful</span>l</span></span><span> x </span><span class="ot"><span>-></span></span><span> _</span></a><span>
+</span><a class="sourceLine" id="cb1-6" data-line-number="6">  <span class="dt">Empty</span> <span class="ot">-&gt;</span> _</a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a><span>
+</span><a class="sourceLine" id="cb1-5" data-line-number="5"><span>  </span><span class="dt"><span><span style="background:#e0f0e0;">Full</span></span></span><span> x </span><span class="ot"><span>-></span></span><span> _</span></a><span>
+</span><a class="sourceLine" id="cb1-6" data-line-number="6">  <span class="dt">Empty</span> <span class="ot">-&gt;</span> _</a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a><span>
+</span><a class="sourceLine" id="cb1-5" data-line-number="5"><span>  </span><span class="dt"><span><span style="background:#e0f0e0;">Full</span></span></span><span> x </span><span class="ot"><span>-></span></span><span> _</span></a><span>
+</span><a class="sourceLine" id="cb1-6" data-line-number="6"><span>  </span><span class="dt"><span><span style="background:#e0f0e0;">E</span>mpty</span></span><span> </span><span class="ot"><span>-></span></span><span> _</span></a><span>
+</span><a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a><span>
+</span><a class="sourceLine" id="cb1-5" data-line-number="5"><span>  </span><span class="dt"><span><span style="background:#e0f0e0;">Full</span></span></span><span> x </span><span class="ot"><span>-></span></span><span> _</span></a><span>
+</span><a class="sourceLine" id="cb1-6" data-line-number="6"><span>  </span><span class="dt"><span><span style="background:#e0f0e0;">Em</span>pty</span></span><span> </span><span class="ot"><span>-></span></span><span> _</span></a><span>
+</span><a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a><span>
+</span><a class="sourceLine" id="cb1-5" data-line-number="5"><span>  </span><span class="dt"><span><span style="background:#e0f0e0;">Full</span></span></span><span> x </span><span class="ot"><span>-></span></span><span> _</span></a><span>
+</span><a class="sourceLine" id="cb1-6" data-line-number="6"><span>  </span><span class="dt"><span><span style="background:#e0f0e0;">Emp</span>ty</span></span><span> </span><span class="ot"><span>-></span></span><span> _</span></a><span>
+</span><a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a><span>
+</span><a class="sourceLine" id="cb1-5" data-line-number="5"><span>  </span><span class="dt"><span><span style="background:#e0f0e0;">Full</span></span></span><span> x </span><span class="ot"><span>-></span></span><span> _</span></a><span>
+</span><a class="sourceLine" id="cb1-6" data-line-number="6"><span>  </span><span class="dt"><span><span style="background:#e0f0e0;">Empt</span>y</span></span><span> </span><span class="ot"><span>-></span></span><span> _</span></a><span>
+</span><a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 3.0
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a><span>
+</span><a class="sourceLine" id="cb1-5" data-line-number="5"><span>  </span><span class="dt"><span><span style="background:#e0f0e0;">Full</span></span></span><span> x </span><span class="ot"><span>-></span></span><span> _</span></a><span>
+</span><a class="sourceLine" id="cb1-6" data-line-number="6"><span>  </span><span class="dt"><span><span style="background:#e0f0e0;">Empty</span></span></span><span> </span><span class="ot"><span>-></span></span><span> _</span></a><span>
+</span><a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+== section
+=== explanation
+<p>If it was built with the <code>Full</code> constructor, pattern matching wil give us access to the argument given to that constructor. In this case it is <code>x</code>.</p>
+=== frame 3.0
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> a</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a><span>
+</span><a class="sourceLine" id="cb1-5" data-line-number="5"><span>  </span><span class="dt"><span>Full</span></span><span> <span style="background:#e0f0e0;">x</span> </span><span class="ot"><span>-></span></span><span> _</span></a><span>
+</span><a class="sourceLine" id="cb1-6" data-line-number="6">  <span class="dt">Empty</span> <span class="ot">-&gt;</span> _</a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
