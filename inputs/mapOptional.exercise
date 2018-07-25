@@ -39,7 +39,7 @@ exercises/mapOptional/part03.mp3
 
 == section
 === explanation
-Remeber that all functions take one argument in Haskell.
+Remember that all functions take one argument in Haskell.
 === terminal direct
     | >
 === code typed
