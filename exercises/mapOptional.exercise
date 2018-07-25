@@ -1,4 +1,4 @@
--- Title mapOptional
+-- Title: mapOptional
 == section
 === audio
 exercises/mapOptional/part01.mp3
@@ -1060,7 +1060,7 @@ OK
  </code></pre>
 == section
 === explanation
-<p>Remeber that all functions take one argument in Haskell.</p>
+<p>Remember that all functions take one argument in Haskell.</p>
 === frame 1.0
 ==== code
 <div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
