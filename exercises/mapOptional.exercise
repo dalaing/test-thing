@@ -1,10 +1,10 @@
--- Title: mapOptional
+-- Title mapOptional
 == section
 === audio
-exercises/mapOptional/part01.mp3
+exercises/mapOptional/part-01.mp3
 === explanation
 <p>This is our first exercise.</p>
-=== frame 3.0
+=== frame 30.0
 ==== code
 <div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
 <a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> error <span class="st">&quot;todo&quot;</span></a>
@@ -35,7 +35,7 @@ exercises/mapOptional/part01.mp3
  </code></pre>
 == section
 === audio
-exercises/mapOptional/part02.mp3
+exercises/mapOptional/part-02.mp3
 === explanation
 <p>It currently compiles…</p>
 === frame 1.0
@@ -183,7 +183,7 @@ exercises/mapOptional/part02.mp3
  
  
  </code></pre>
-=== frame 3.0
+=== frame 30.0
 ==== code
 <div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
 <a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> error <span class="st">&quot;todo&quot;</span></a>
@@ -214,7 +214,7 @@ OK
  </code></pre>
 == section
 === audio
-exercises/mapOptional/part03.mp3
+exercises/mapOptional/part-03.mp3
 === explanation
 <p>… but it doesn’t do what we want.</p>
 === frame 5.0e-2
@@ -1029,7 +1029,7 @@ OK
  
  
  </code></pre>
-=== frame 3.0
+=== frame 30.0
 ==== code
 <div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
 <a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> error <span class="st">&quot;todo&quot;</span></a>
@@ -1059,6 +1059,8 @@ OK
  
  </code></pre>
 == section
+=== audio
+exercises/mapOptional/part-04.mp3
 === explanation
 <p>Remember that all functions take one argument in Haskell.</p>
 === frame 1.0
@@ -1148,7 +1150,7 @@ OK
  
  
  </code></pre>
-=== frame 3.0
+=== frame 30.0
 ==== code
 <div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> (<span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b)</a>
 <a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> error <span class="st">&quot;todo&quot;</span></a>
@@ -1178,6 +1180,8 @@ OK
  
  </code></pre>
 == section
+=== audio
+exercises/mapOptional/part-05.mp3
 === explanation
 <p>If we see that we need a function, we write a lambda.</p>
 === frame 1.0
@@ -1702,7 +1706,7 @@ OK
  
  
  </code></pre>
-=== frame 3.0
+=== frame 30.0
 ==== code
 <div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> (<span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b)</a>
 <a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f <span class="ot">-&gt;</span> _</a>
@@ -1732,9 +1736,11 @@ OK
  
  </code></pre>
 == section
+=== audio
+exercises/mapOptional/part-06.mp3
 === explanation
 <p>We have left a type hole here.</p>
-=== frame 3.0
+=== frame 30.0
 ==== code
 <div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> (<span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b)</a><span>
 </span><a class="sourceLine" id="cb1-2" data-line-number="2"><span>mapOptional </span><span class="fu"><span>=</span></span><span> \f </span><span class="ot"><span>-></span></span><span> <span style="background:#e0f0e0;">_</span></span></a><span>
@@ -1764,6 +1770,8 @@ OK
  
  </code></pre>
 == section
+=== audio
+exercises/mapOptional/part-07.mp3
 === explanation
 <p>These type holes can give us some explanation about what needs to go in that space.</p>
 === frame 1.0
@@ -1940,7 +1948,7 @@ OK
  
  
  </code></pre>
-=== frame 3.0
+=== frame 30.0
 ==== code
 <div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> (<span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b)</a><span>
 </span><a class="sourceLine" id="cb1-2" data-line-number="2"><span>mapOptional </span><span class="fu"><span>=</span></span><span> \<span style="background:#f0e0e0;">f</span> </span><span class="ot"><span>-></span></span><span> <span style="background:#e0f0e0;">_</span></span></a><span>
@@ -1970,13 +1978,15 @@ OK
  
  </span></code></pre>
 == section
+=== audio
+exercises/mapOptional/part-08.mp3
 === explanation
 <p>We still need a function, so we write another lambda.</p>
 === frame 1.0
 ==== code
-<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> (<span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b)</a><span>
-</span><a class="sourceLine" id="cb1-2" data-line-number="2"><span>mapOptional </span><span class="fu"><span>=</span></span><span> \<span style="background:#f0e0e0;">f</span> </span><span class="ot"><span>-></span></span><span> <span style="background:#e0f0e0;">_</span></span></a><span>
-</span><a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> (<span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f <span class="ot">-&gt;</span> _</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
 <a class="sourceLine" id="cb1-4" data-line-number="4"> </a>
 <a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
 <a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
@@ -2175,7 +2185,7 @@ OK
  
  
  </code></pre>
-=== frame 3.0
+=== frame 30.0
 ==== code
 <div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> (<span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b)</a>
 <a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f <span class="ot">-&gt;</span> \o <span class="ot">-&gt;</span> _</a>
@@ -2205,6 +2215,8 @@ OK
  
  </code></pre>
 == section
+=== audio
+exercises/mapOptional/part-09.mp3
 === explanation
 <p>For convenience, we can merge these into a single lambda…</p>
 === frame 5.0e-2
@@ -2323,7 +2335,7 @@ OK
  
  
  </code></pre>
-=== frame 3.0
+=== frame 30.0
 ==== code
 <div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> (<span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b)</a>
 <a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> _</a>
@@ -2353,6 +2365,8 @@ OK
  
  </code></pre>
 == section
+=== audio
+exercises/mapOptional/part-10.mp3
 === explanation
 <p>… or we can use the syntactic sugar that lets us treat them more like function arguments.</p>
 === frame 5.0e-2
@@ -2529,7 +2543,7 @@ OK
  
  
  </code></pre>
-=== frame 3.0
+=== frame 30.0
 ==== code
 <div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> (<span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b)</a>
 <a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional f o <span class="fu">=</span> _</a>
@@ -2559,6 +2573,8 @@ OK
  
  </code></pre>
 == section
+=== audio
+exercises/mapOptional/part-11.mp3
 === explanation
 <p>All of these are equivalent, so we’ll just pick one that makes sense to us.</p>
 === frame 5.0e-2
@@ -2706,10 +2722,97 @@ OK
  
  
  </code></pre>
-=== frame 3.0
+=== frame 5.0e-2
 ==== code
 <div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
 <a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="fu">=</span> _</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
+<a class="sourceLine" id="cb1-4" data-line-number="4"> </a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o  _</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
+<a class="sourceLine" id="cb1-4" data-line-number="4"> </a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 5.0e-2
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="fu">-</span> _</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
+<a class="sourceLine" id="cb1-4" data-line-number="4"> </a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
+<a class="sourceLine" id="cb1-8" data-line-number="8"> </a>
+<a class="sourceLine" id="cb1-9" data-line-number="9"> </a>
+<a class="sourceLine" id="cb1-10" data-line-number="10"> </a>
+<a class="sourceLine" id="cb1-11" data-line-number="11"> </a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"> </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"> </a></code></pre></div>
+==== terminal
+<pre><code>&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </code></pre>
+=== frame 30.0
+==== code
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> _</a>
 <a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
 <a class="sourceLine" id="cb1-4" data-line-number="4"> </a>
 <a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
@@ -2736,12 +2839,14 @@ OK
  
  </code></pre>
 == section
+=== audio
+exercises/mapOptional/part-12.mp3
 === explanation
 <p>These new type hole has <code>o</code> in the relevant bindings and a more refined goal.</p>
 === frame 1.0
 ==== code
 <div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
-<a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="fu">=</span> _</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> _</a>
 <a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
 <a class="sourceLine" id="cb1-4" data-line-number="4"> </a>
 <a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
@@ -2770,7 +2875,7 @@ OK
 === frame 5.0e-2
 ==== code
 <div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
-<a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="fu">=</span> _</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> _</a>
 <a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
 <a class="sourceLine" id="cb1-4" data-line-number="4"> </a>
 <a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
@@ -2799,7 +2904,7 @@ OK
 === frame 5.0e-2
 ==== code
 <div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
-<a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="fu">=</span> _</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> _</a>
 <a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
 <a class="sourceLine" id="cb1-4" data-line-number="4"> </a>
 <a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
@@ -2828,7 +2933,7 @@ OK
 === frame 5.0e-2
 ==== code
 <div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
-<a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="fu">=</span> _</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> _</a>
 <a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
 <a class="sourceLine" id="cb1-4" data-line-number="4"> </a>
 <a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
@@ -2857,7 +2962,7 @@ OK
 === frame 5.0e-2
 ==== code
 <div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
-<a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="fu">=</span> _</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> _</a>
 <a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
 <a class="sourceLine" id="cb1-4" data-line-number="4"> </a>
 <a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
@@ -2886,7 +2991,7 @@ OK
 === frame 1.0
 ==== code
 <div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
-<a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="fu">=</span> _</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> _</a>
 <a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
 <a class="sourceLine" id="cb1-4" data-line-number="4"> </a>
 <a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
@@ -2912,7 +3017,7 @@ OK
  
  
  </code></pre>
-=== frame 3.0
+=== frame 30.0
 ==== code
 <div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a><span>
 </span><a class="sourceLine" id="cb1-2" data-line-number="2"><span>mapOptional </span><span class="fu"><span>=</span></span><span> \<span style="background:#f0e0e0;">f</span> <span style="background:#f0e0f0;">o</span> </span><span class="ot"><span>-></span></span><span> <span style="background:#e0f0e0;">_</span></span></a><span>
@@ -2942,13 +3047,15 @@ OK
  
  </span></code></pre>
 == section
+=== audio
+exercises/mapOptional/part-13.mp3
 === explanation
 <p>Remember that the <code>Optional</code> type has two constructors.</p>
 === frame 1.0
 ==== code
-<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a><span>
-</span><a class="sourceLine" id="cb1-2" data-line-number="2"><span>mapOptional </span><span class="fu"><span>=</span></span><span> \<span style="background:#f0e0e0;">f</span> <span style="background:#f0e0f0;">o</span> </span><span class="ot"><span>-></span></span><span> <span style="background:#e0f0e0;">_</span></span></a><span>
-</span><a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> _</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
 <a class="sourceLine" id="cb1-4" data-line-number="4"> </a>
 <a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
 <a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
@@ -2975,9 +3082,9 @@ OK
  </code></pre>
 === frame 5.0e-2
 ==== code
-<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a><span>
-</span><a class="sourceLine" id="cb1-2" data-line-number="2"><span>mapOptional </span><span class="fu"><span>=</span></span><span> \<span style="background:#f0e0e0;">f</span> <span style="background:#f0e0f0;">o</span> </span><span class="ot"><span>-></span></span><span> <span style="background:#e0f0e0;">_</span></span></a><span>
-</span><a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> _</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
 <a class="sourceLine" id="cb1-4" data-line-number="4"> </a>
 <a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
 <a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
@@ -3004,9 +3111,9 @@ OK
  </code></pre>
 === frame 5.0e-2
 ==== code
-<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a><span>
-</span><a class="sourceLine" id="cb1-2" data-line-number="2"><span>mapOptional </span><span class="fu"><span>=</span></span><span> \<span style="background:#f0e0e0;">f</span> <span style="background:#f0e0f0;">o</span> </span><span class="ot"><span>-></span></span><span> <span style="background:#e0f0e0;">_</span></span></a><span>
-</span><a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> _</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
 <a class="sourceLine" id="cb1-4" data-line-number="4"> </a>
 <a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
 <a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
@@ -3033,9 +3140,9 @@ OK
  </code></pre>
 === frame 5.0e-2
 ==== code
-<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a><span>
-</span><a class="sourceLine" id="cb1-2" data-line-number="2"><span>mapOptional </span><span class="fu"><span>=</span></span><span> \<span style="background:#f0e0e0;">f</span> <span style="background:#f0e0f0;">o</span> </span><span class="ot"><span>-></span></span><span> <span style="background:#e0f0e0;">_</span></span></a><span>
-</span><a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> _</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
 <a class="sourceLine" id="cb1-4" data-line-number="4"> </a>
 <a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
 <a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
@@ -3062,9 +3169,9 @@ OK
  </code></pre>
 === frame 5.0e-2
 ==== code
-<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a><span>
-</span><a class="sourceLine" id="cb1-2" data-line-number="2"><span>mapOptional </span><span class="fu"><span>=</span></span><span> \<span style="background:#f0e0e0;">f</span> <span style="background:#f0e0f0;">o</span> </span><span class="ot"><span>-></span></span><span> <span style="background:#e0f0e0;">_</span></span></a><span>
-</span><a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> _</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
 <a class="sourceLine" id="cb1-4" data-line-number="4"> </a>
 <a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
 <a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
@@ -3091,9 +3198,9 @@ OK
  </code></pre>
 === frame 5.0e-2
 ==== code
-<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a><span>
-</span><a class="sourceLine" id="cb1-2" data-line-number="2"><span>mapOptional </span><span class="fu"><span>=</span></span><span> \<span style="background:#f0e0e0;">f</span> <span style="background:#f0e0f0;">o</span> </span><span class="ot"><span>-></span></span><span> <span style="background:#e0f0e0;">_</span></span></a><span>
-</span><a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> _</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
 <a class="sourceLine" id="cb1-4" data-line-number="4"> </a>
 <a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
 <a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
@@ -3120,9 +3227,9 @@ OK
  </code></pre>
 === frame 5.0e-2
 ==== code
-<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a><span>
-</span><a class="sourceLine" id="cb1-2" data-line-number="2"><span>mapOptional </span><span class="fu"><span>=</span></span><span> \<span style="background:#f0e0e0;">f</span> <span style="background:#f0e0f0;">o</span> </span><span class="ot"><span>-></span></span><span> <span style="background:#e0f0e0;">_</span></span></a><span>
-</span><a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> _</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
 <a class="sourceLine" id="cb1-4" data-line-number="4"> </a>
 <a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
 <a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
@@ -3149,9 +3256,9 @@ OK
  </code></pre>
 === frame 5.0e-2
 ==== code
-<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a><span>
-</span><a class="sourceLine" id="cb1-2" data-line-number="2"><span>mapOptional </span><span class="fu"><span>=</span></span><span> \<span style="background:#f0e0e0;">f</span> <span style="background:#f0e0f0;">o</span> </span><span class="ot"><span>-></span></span><span> <span style="background:#e0f0e0;">_</span></span></a><span>
-</span><a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> _</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
 <a class="sourceLine" id="cb1-4" data-line-number="4"> </a>
 <a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
 <a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
@@ -3178,9 +3285,9 @@ OK
  </code></pre>
 === frame 5.0e-2
 ==== code
-<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a><span>
-</span><a class="sourceLine" id="cb1-2" data-line-number="2"><span>mapOptional </span><span class="fu"><span>=</span></span><span> \<span style="background:#f0e0e0;">f</span> <span style="background:#f0e0f0;">o</span> </span><span class="ot"><span>-></span></span><span> <span style="background:#e0f0e0;">_</span></span></a><span>
-</span><a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> _</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
 <a class="sourceLine" id="cb1-4" data-line-number="4"> </a>
 <a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
 <a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
@@ -3207,9 +3314,9 @@ OK
  </code></pre>
 === frame 5.0e-2
 ==== code
-<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a><span>
-</span><a class="sourceLine" id="cb1-2" data-line-number="2"><span>mapOptional </span><span class="fu"><span>=</span></span><span> \<span style="background:#f0e0e0;">f</span> <span style="background:#f0e0f0;">o</span> </span><span class="ot"><span>-></span></span><span> <span style="background:#e0f0e0;">_</span></span></a><span>
-</span><a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> _</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
 <a class="sourceLine" id="cb1-4" data-line-number="4"> </a>
 <a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
 <a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
@@ -3236,9 +3343,9 @@ OK
  </code></pre>
 === frame 5.0e-2
 ==== code
-<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a><span>
-</span><a class="sourceLine" id="cb1-2" data-line-number="2"><span>mapOptional </span><span class="fu"><span>=</span></span><span> \<span style="background:#f0e0e0;">f</span> <span style="background:#f0e0f0;">o</span> </span><span class="ot"><span>-></span></span><span> <span style="background:#e0f0e0;">_</span></span></a><span>
-</span><a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> _</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
 <a class="sourceLine" id="cb1-4" data-line-number="4"> </a>
 <a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
 <a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
@@ -3265,9 +3372,9 @@ OK
  </code></pre>
 === frame 5.0e-2
 ==== code
-<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a><span>
-</span><a class="sourceLine" id="cb1-2" data-line-number="2"><span>mapOptional </span><span class="fu"><span>=</span></span><span> \<span style="background:#f0e0e0;">f</span> <span style="background:#f0e0f0;">o</span> </span><span class="ot"><span>-></span></span><span> <span style="background:#e0f0e0;">_</span></span></a><span>
-</span><a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> _</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
 <a class="sourceLine" id="cb1-4" data-line-number="4"> </a>
 <a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
 <a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
@@ -3294,9 +3401,9 @@ OK
  </code></pre>
 === frame 5.0e-2
 ==== code
-<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a><span>
-</span><a class="sourceLine" id="cb1-2" data-line-number="2"><span>mapOptional </span><span class="fu"><span>=</span></span><span> \<span style="background:#f0e0e0;">f</span> <span style="background:#f0e0f0;">o</span> </span><span class="ot"><span>-></span></span><span> <span style="background:#e0f0e0;">_</span></span></a><span>
-</span><a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> _</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
 <a class="sourceLine" id="cb1-4" data-line-number="4"> </a>
 <a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
 <a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
@@ -3323,9 +3430,9 @@ OK
  </code></pre>
 === frame 5.0e-2
 ==== code
-<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a><span>
-</span><a class="sourceLine" id="cb1-2" data-line-number="2"><span>mapOptional </span><span class="fu"><span>=</span></span><span> \<span style="background:#f0e0e0;">f</span> <span style="background:#f0e0f0;">o</span> </span><span class="ot"><span>-></span></span><span> <span style="background:#e0f0e0;">_</span></span></a><span>
-</span><a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> _</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
 <a class="sourceLine" id="cb1-4" data-line-number="4"> </a>
 <a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
 <a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
@@ -3350,11 +3457,11 @@ OK
  
  
  </code></pre>
-=== frame 3.0
+=== frame 30.0
 ==== code
-<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a><span>
-</span><a class="sourceLine" id="cb1-2" data-line-number="2"><span>mapOptional </span><span class="fu"><span>=</span></span><span> \<span style="background:#f0e0e0;">f</span> <span style="background:#f0e0f0;">o</span> </span><span class="ot"><span>-></span></span><span> <span style="background:#e0f0e0;">_</span></span></a><span>
-</span><a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> _</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
 <a class="sourceLine" id="cb1-4" data-line-number="4"> </a>
 <a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
 <a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
@@ -3380,13 +3487,15 @@ data Optional a = Full a | Empty
  
  </code></pre>
 == section
+=== audio
+exercises/mapOptional/part-14.mp3
 === explanation
 <p>The <code>Full</code> constructor takes one argument …</p>
 === frame 5.0e-2
 ==== code
-<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a><span>
-</span><a class="sourceLine" id="cb1-2" data-line-number="2"><span>mapOptional </span><span class="fu"><span>=</span></span><span> \<span style="background:#f0e0e0;">f</span> <span style="background:#f0e0f0;">o</span> </span><span class="ot"><span>-></span></span><span> <span style="background:#e0f0e0;">_</span></span></a><span>
-</span><a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> _</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
 <a class="sourceLine" id="cb1-4" data-line-number="4"> </a>
 <a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
 <a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
@@ -3413,9 +3522,9 @@ data Optional a = Full a | Empty
  </code></pre>
 === frame 5.0e-2
 ==== code
-<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a><span>
-</span><a class="sourceLine" id="cb1-2" data-line-number="2"><span>mapOptional </span><span class="fu"><span>=</span></span><span> \<span style="background:#f0e0e0;">f</span> <span style="background:#f0e0f0;">o</span> </span><span class="ot"><span>-></span></span><span> <span style="background:#e0f0e0;">_</span></span></a><span>
-</span><a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> _</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
 <a class="sourceLine" id="cb1-4" data-line-number="4"> </a>
 <a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
 <a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
@@ -3442,9 +3551,9 @@ data Optional a = Full a | Empty
  </code></pre>
 === frame 5.0e-2
 ==== code
-<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a><span>
-</span><a class="sourceLine" id="cb1-2" data-line-number="2"><span>mapOptional </span><span class="fu"><span>=</span></span><span> \<span style="background:#f0e0e0;">f</span> <span style="background:#f0e0f0;">o</span> </span><span class="ot"><span>-></span></span><span> <span style="background:#e0f0e0;">_</span></span></a><span>
-</span><a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> _</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
 <a class="sourceLine" id="cb1-4" data-line-number="4"> </a>
 <a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
 <a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
@@ -3471,9 +3580,9 @@ data Optional a = Full a | Empty
  </code></pre>
 === frame 5.0e-2
 ==== code
-<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a><span>
-</span><a class="sourceLine" id="cb1-2" data-line-number="2"><span>mapOptional </span><span class="fu"><span>=</span></span><span> \<span style="background:#f0e0e0;">f</span> <span style="background:#f0e0f0;">o</span> </span><span class="ot"><span>-></span></span><span> <span style="background:#e0f0e0;">_</span></span></a><span>
-</span><a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> _</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
 <a class="sourceLine" id="cb1-4" data-line-number="4"> </a>
 <a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
 <a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
@@ -3500,9 +3609,9 @@ data Optional a = Full a | Empty
  </code></pre>
 === frame 5.0e-2
 ==== code
-<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a><span>
-</span><a class="sourceLine" id="cb1-2" data-line-number="2"><span>mapOptional </span><span class="fu"><span>=</span></span><span> \<span style="background:#f0e0e0;">f</span> <span style="background:#f0e0f0;">o</span> </span><span class="ot"><span>-></span></span><span> <span style="background:#e0f0e0;">_</span></span></a><span>
-</span><a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> _</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
 <a class="sourceLine" id="cb1-4" data-line-number="4"> </a>
 <a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
 <a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
@@ -3529,9 +3638,9 @@ data Optional a = Full a | Empty
  </code></pre>
 === frame 5.0e-2
 ==== code
-<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a><span>
-</span><a class="sourceLine" id="cb1-2" data-line-number="2"><span>mapOptional </span><span class="fu"><span>=</span></span><span> \<span style="background:#f0e0e0;">f</span> <span style="background:#f0e0f0;">o</span> </span><span class="ot"><span>-></span></span><span> <span style="background:#e0f0e0;">_</span></span></a><span>
-</span><a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> _</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
 <a class="sourceLine" id="cb1-4" data-line-number="4"> </a>
 <a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
 <a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
@@ -3558,9 +3667,9 @@ data Optional a = Full a | Empty
  </code></pre>
 === frame 5.0e-2
 ==== code
-<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a><span>
-</span><a class="sourceLine" id="cb1-2" data-line-number="2"><span>mapOptional </span><span class="fu"><span>=</span></span><span> \<span style="background:#f0e0e0;">f</span> <span style="background:#f0e0f0;">o</span> </span><span class="ot"><span>-></span></span><span> <span style="background:#e0f0e0;">_</span></span></a><span>
-</span><a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> _</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
 <a class="sourceLine" id="cb1-4" data-line-number="4"> </a>
 <a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
 <a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
@@ -3587,9 +3696,9 @@ data Optional a = Full a | Empty
  </code></pre>
 === frame 5.0e-2
 ==== code
-<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a><span>
-</span><a class="sourceLine" id="cb1-2" data-line-number="2"><span>mapOptional </span><span class="fu"><span>=</span></span><span> \<span style="background:#f0e0e0;">f</span> <span style="background:#f0e0f0;">o</span> </span><span class="ot"><span>-></span></span><span> <span style="background:#e0f0e0;">_</span></span></a><span>
-</span><a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> _</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
 <a class="sourceLine" id="cb1-4" data-line-number="4"> </a>
 <a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
 <a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
@@ -3616,9 +3725,9 @@ data Optional a = Full a | Empty
  </code></pre>
 === frame 5.0e-2
 ==== code
-<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a><span>
-</span><a class="sourceLine" id="cb1-2" data-line-number="2"><span>mapOptional </span><span class="fu"><span>=</span></span><span> \<span style="background:#f0e0e0;">f</span> <span style="background:#f0e0f0;">o</span> </span><span class="ot"><span>-></span></span><span> <span style="background:#e0f0e0;">_</span></span></a><span>
-</span><a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> _</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
 <a class="sourceLine" id="cb1-4" data-line-number="4"> </a>
 <a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
 <a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
@@ -3643,11 +3752,11 @@ data Optional a = Full a | Empty
  
  
  </code></pre>
-=== frame 3.0
+=== frame 30.0
 ==== code
-<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a><span>
-</span><a class="sourceLine" id="cb1-2" data-line-number="2"><span>mapOptional </span><span class="fu"><span>=</span></span><span> \<span style="background:#f0e0e0;">f</span> <span style="background:#f0e0f0;">o</span> </span><span class="ot"><span>-></span></span><span> <span style="background:#e0f0e0;">_</span></span></a><span>
-</span><a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> _</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
 <a class="sourceLine" id="cb1-4" data-line-number="4"> </a>
 <a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
 <a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
@@ -3673,13 +3782,15 @@ Full :: a -&gt; Optional a
  
  </code></pre>
 == section
+=== audio
+exercises/mapOptional/part-15.mp3
 === explanation
 <p>… and the <code>Empty</code> constructor takes no arguments.</p>
 === frame 5.0e-2
 ==== code
-<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a><span>
-</span><a class="sourceLine" id="cb1-2" data-line-number="2"><span>mapOptional </span><span class="fu"><span>=</span></span><span> \<span style="background:#f0e0e0;">f</span> <span style="background:#f0e0f0;">o</span> </span><span class="ot"><span>-></span></span><span> <span style="background:#e0f0e0;">_</span></span></a><span>
-</span><a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> _</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
 <a class="sourceLine" id="cb1-4" data-line-number="4"> </a>
 <a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
 <a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
@@ -3706,9 +3817,9 @@ Full :: a -&gt; Optional a
  </code></pre>
 === frame 5.0e-2
 ==== code
-<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a><span>
-</span><a class="sourceLine" id="cb1-2" data-line-number="2"><span>mapOptional </span><span class="fu"><span>=</span></span><span> \<span style="background:#f0e0e0;">f</span> <span style="background:#f0e0f0;">o</span> </span><span class="ot"><span>-></span></span><span> <span style="background:#e0f0e0;">_</span></span></a><span>
-</span><a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> _</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
 <a class="sourceLine" id="cb1-4" data-line-number="4"> </a>
 <a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
 <a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
@@ -3735,9 +3846,9 @@ Full :: a -&gt; Optional a
  </code></pre>
 === frame 5.0e-2
 ==== code
-<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a><span>
-</span><a class="sourceLine" id="cb1-2" data-line-number="2"><span>mapOptional </span><span class="fu"><span>=</span></span><span> \<span style="background:#f0e0e0;">f</span> <span style="background:#f0e0f0;">o</span> </span><span class="ot"><span>-></span></span><span> <span style="background:#e0f0e0;">_</span></span></a><span>
-</span><a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> _</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
 <a class="sourceLine" id="cb1-4" data-line-number="4"> </a>
 <a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
 <a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
@@ -3764,9 +3875,9 @@ Full :: a -&gt; Optional a
  </code></pre>
 === frame 5.0e-2
 ==== code
-<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a><span>
-</span><a class="sourceLine" id="cb1-2" data-line-number="2"><span>mapOptional </span><span class="fu"><span>=</span></span><span> \<span style="background:#f0e0e0;">f</span> <span style="background:#f0e0f0;">o</span> </span><span class="ot"><span>-></span></span><span> <span style="background:#e0f0e0;">_</span></span></a><span>
-</span><a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> _</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
 <a class="sourceLine" id="cb1-4" data-line-number="4"> </a>
 <a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
 <a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
@@ -3793,9 +3904,9 @@ Full :: a -&gt; Optional a
  </code></pre>
 === frame 5.0e-2
 ==== code
-<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a><span>
-</span><a class="sourceLine" id="cb1-2" data-line-number="2"><span>mapOptional </span><span class="fu"><span>=</span></span><span> \<span style="background:#f0e0e0;">f</span> <span style="background:#f0e0f0;">o</span> </span><span class="ot"><span>-></span></span><span> <span style="background:#e0f0e0;">_</span></span></a><span>
-</span><a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> _</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
 <a class="sourceLine" id="cb1-4" data-line-number="4"> </a>
 <a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
 <a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
@@ -3822,9 +3933,9 @@ Full :: a -&gt; Optional a
  </code></pre>
 === frame 5.0e-2
 ==== code
-<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a><span>
-</span><a class="sourceLine" id="cb1-2" data-line-number="2"><span>mapOptional </span><span class="fu"><span>=</span></span><span> \<span style="background:#f0e0e0;">f</span> <span style="background:#f0e0f0;">o</span> </span><span class="ot"><span>-></span></span><span> <span style="background:#e0f0e0;">_</span></span></a><span>
-</span><a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> _</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
 <a class="sourceLine" id="cb1-4" data-line-number="4"> </a>
 <a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
 <a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
@@ -3851,9 +3962,9 @@ Full :: a -&gt; Optional a
  </code></pre>
 === frame 5.0e-2
 ==== code
-<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a><span>
-</span><a class="sourceLine" id="cb1-2" data-line-number="2"><span>mapOptional </span><span class="fu"><span>=</span></span><span> \<span style="background:#f0e0e0;">f</span> <span style="background:#f0e0f0;">o</span> </span><span class="ot"><span>-></span></span><span> <span style="background:#e0f0e0;">_</span></span></a><span>
-</span><a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> _</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
 <a class="sourceLine" id="cb1-4" data-line-number="4"> </a>
 <a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
 <a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
@@ -3880,9 +3991,9 @@ Full :: a -&gt; Optional a
  </code></pre>
 === frame 5.0e-2
 ==== code
-<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a><span>
-</span><a class="sourceLine" id="cb1-2" data-line-number="2"><span>mapOptional </span><span class="fu"><span>=</span></span><span> \<span style="background:#f0e0e0;">f</span> <span style="background:#f0e0f0;">o</span> </span><span class="ot"><span>-></span></span><span> <span style="background:#e0f0e0;">_</span></span></a><span>
-</span><a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> _</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
 <a class="sourceLine" id="cb1-4" data-line-number="4"> </a>
 <a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
 <a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
@@ -3909,9 +4020,9 @@ Full :: a -&gt; Optional a
  </code></pre>
 === frame 5.0e-2
 ==== code
-<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a><span>
-</span><a class="sourceLine" id="cb1-2" data-line-number="2"><span>mapOptional </span><span class="fu"><span>=</span></span><span> \<span style="background:#f0e0e0;">f</span> <span style="background:#f0e0f0;">o</span> </span><span class="ot"><span>-></span></span><span> <span style="background:#e0f0e0;">_</span></span></a><span>
-</span><a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> _</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
 <a class="sourceLine" id="cb1-4" data-line-number="4"> </a>
 <a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
 <a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
@@ -3938,9 +4049,9 @@ Full :: a -&gt; Optional a
  </code></pre>
 === frame 5.0e-2
 ==== code
-<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a><span>
-</span><a class="sourceLine" id="cb1-2" data-line-number="2"><span>mapOptional </span><span class="fu"><span>=</span></span><span> \<span style="background:#f0e0e0;">f</span> <span style="background:#f0e0f0;">o</span> </span><span class="ot"><span>-></span></span><span> <span style="background:#e0f0e0;">_</span></span></a><span>
-</span><a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> _</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
 <a class="sourceLine" id="cb1-4" data-line-number="4"> </a>
 <a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
 <a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
@@ -3965,11 +4076,11 @@ Full :: a -&gt; Optional a
  
  
  </code></pre>
-=== frame 3.0
+=== frame 30.0
 ==== code
-<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a><span>
-</span><a class="sourceLine" id="cb1-2" data-line-number="2"><span>mapOptional </span><span class="fu"><span>=</span></span><span> \<span style="background:#f0e0e0;">f</span> <span style="background:#f0e0f0;">o</span> </span><span class="ot"><span>-></span></span><span> <span style="background:#e0f0e0;">_</span></span></a><span>
-</span><a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> _</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
 <a class="sourceLine" id="cb1-4" data-line-number="4"> </a>
 <a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
 <a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
@@ -3995,13 +4106,15 @@ Empty :: Optional a
  
  </code></pre>
 == section
+=== audio
+exercises/mapOptional/part-16.mp3
 === explanation
 <p>We will use a <code>case</code> expression to work out which constructor <code>o</code> was built with.</p>
 === frame 1.0
 ==== code
-<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a><span>
-</span><a class="sourceLine" id="cb1-2" data-line-number="2"><span>mapOptional </span><span class="fu"><span>=</span></span><span> \<span style="background:#f0e0e0;">f</span> <span style="background:#f0e0f0;">o</span> </span><span class="ot"><span>-></span></span><span> <span style="background:#e0f0e0;">_</span></span></a><span>
-</span><a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
+<div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> _</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3"> </a>
 <a class="sourceLine" id="cb1-4" data-line-number="4"> </a>
 <a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
 <a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
@@ -4316,7 +4429,7 @@ Empty :: Optional a
  
  
  </code></pre>
-=== frame 3.0
+=== frame 30.0
 ==== code
 <div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
 <a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a>
@@ -4346,6 +4459,8 @@ Empty :: Optional a
  
  </code></pre>
 == section
+=== audio
+exercises/mapOptional/part-17.mp3
 === explanation
 <p>If <code>o</code> was constructed with the <code>Full</code> constructor, we get access to the value that was given to the constructor.</p>
 === frame 1.0
@@ -4870,7 +4985,7 @@ Empty :: Optional a
  
  
  </code></pre>
-=== frame 3.0
+=== frame 30.0
 ==== code
 <div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
 <a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a><span>
@@ -4900,14 +5015,16 @@ Empty :: Optional a
  
  </code></pre>
 == section
+=== audio
+exercises/mapOptional/part-18.mp3
 === explanation
 <p>If <code>o</code> was constructed with the <code>Empty</code> constructor, there is no more information about that constructor to access.</p>
 === frame 1.0
 ==== code
 <div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
-<a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a><span>
-</span><a class="sourceLine" id="cb1-3" data-line-number="3"><span>  </span><span class="dt"><span>Full</span></span><span> <span style="background:#e0f0e0;">x</span> </span><span class="ot"><span>-></span></span><span> _full</span></a><span>
-</span><a class="sourceLine" id="cb1-4" data-line-number="4"> </a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">  <span class="dt">Full</span> x <span class="ot">-&gt;</span> _full</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4"> </a>
 <a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
 <a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
 <a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
@@ -5395,7 +5512,7 @@ Empty :: Optional a
  
  
  </code></pre>
-=== frame 3.0
+=== frame 30.0
 ==== code
 <div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
 <a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a>
@@ -5425,6 +5542,8 @@ Empty :: Optional a
  
  </code></pre>
 == section
+=== audio
+exercises/mapOptional/part-19.mp3
 === explanation
 <p>We have named the type holes so that we don’t get confused about which is which.</p>
 === frame 1.0
@@ -5572,7 +5691,7 @@ Empty :: Optional a
  
  
  </code></pre>
-=== frame 3.0
+=== frame 30.0
 ==== code
 <div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
 <a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a>
@@ -5602,9 +5721,11 @@ Empty :: Optional a
    f :: a -&gt; b
    o :: Optional a</code></pre>
 == section
+=== audio
+exercises/mapOptional/part-20.mp3
 === explanation
 <p>We get information for the type hole we named <code>_full</code> …</p>
-=== frame 3.0
+=== frame 30.0
 ==== code
 <div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a><span>
 </span><a class="sourceLine" id="cb1-2" data-line-number="2"><span>mapOptional </span><span class="fu"><span>=</span></span><span> \<span style="background:#f0e0e0;">f</span> <span style="background:#f0e0f0;">o</span> </span><span class="ot"><span>-></span></span><span> </span><span class="kw"><span>case</span></span><span> o </span><span class="kw"><span>of</span></span></a><span>
@@ -5634,9 +5755,11 @@ Empty :: Optional a
    f :: a -> b
    o :: Optional a</span></code></pre>
 == section
+=== audio
+exercises/mapOptional/part-21.mp3
 === explanation
-<p>… and we get information for the type hole we named <code>_empty</code></p>
-=== frame 3.0
+<p>… and we get information for the type hole we named <code>_empty</code>.</p>
+=== frame 30.0
 ==== code
 <div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a><span>
 </span><a class="sourceLine" id="cb1-2" data-line-number="2"><span>mapOptional </span><span class="fu"><span>=</span></span><span> \<span style="background:#f0e0e0;">f</span> <span style="background:#f0e0f0;">o</span> </span><span class="ot"><span>-></span></span><span> </span><span class="kw"><span>case</span></span><span> o </span><span class="kw"><span>of</span></span></a><span>
@@ -5666,9 +5789,11 @@ Empty :: Optional a
    <span style="background:#f0e0e0;">f</span> :: a -> b
    <span style="background:#f0e0f0;">o</span> :: Optional a</span></code></pre>
 == section
+=== audio
+exercises/mapOptional/part-22.mp3
 === explanation
 <p>First we’ll deal with the case where <code>o</code> was constructed using <code>Full</code>.</p>
-=== frame 3.0
+=== frame 30.0
 ==== code
 <div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
 <a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a>
@@ -5698,6 +5823,8 @@ Empty :: Optional a
  
  </code></pre>
 == section
+=== audio
+exercises/mapOptional/part-23.mp3
 === explanation
 <p>We can take a guess that we’ll be using <code>x</code>, and then insert a new type hole to see what we should do after that.</p>
 === frame 1.0
@@ -6077,7 +6204,7 @@ Empty :: Optional a
  
  
  </code></pre>
-=== frame 3.0
+=== frame 30.0
 ==== code
 <div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
 <a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a><span>
@@ -6095,9 +6222,9 @@ Empty :: Optional a
 ==== terminal
 <pre><code><span>> :r
 • Found hole: <span style="background:#e0f0e0;">_</span> :: a -> Optional b
+• Relevant bindings include
+  f :: a -> b
 ...
- 
- 
  
  
  
@@ -6107,14 +6234,16 @@ Empty :: Optional a
  
  </span></code></pre>
 == section
+=== audio
+exercises/mapOptional/part-24.mp3
 === explanation
 <p>We might then reason that we could use <code>f</code> in order to convert our value of type <code>a</code> to a value of type <code>b</code>.</p>
 === frame 1.0
 ==== code
 <div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
-<a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a><span>
-</span><a class="sourceLine" id="cb1-3" data-line-number="3"><span>  </span><span class="dt"><span>Full</span></span><span> x </span><span class="ot"><span>-></span></span><span> <span style="background:#e0f0e0;">_</span> x</span></a><span>
-</span><a class="sourceLine" id="cb1-4" data-line-number="4">  <span class="dt">Empty</span> <span class="ot">-&gt;</span> _empty</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">  <span class="dt">Full</span> x <span class="ot">-&gt;</span> _ x</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">  <span class="dt">Empty</span> <span class="ot">-&gt;</span> _empty</a>
 <a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
 <a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
 <a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
@@ -6428,7 +6557,7 @@ Empty :: Optional a
  
  
  </code></pre>
-=== frame 3.0
+=== frame 30.0
 ==== code
 <div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
 <a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a><span>
@@ -6458,14 +6587,16 @@ Empty :: Optional a
  
  </span></code></pre>
 == section
+=== audio
+exercises/mapOptional/part-25.mp3
 === explanation
-<p>Now if we recognize that <code>b -&gt; Optional b</code> is the type of the <code>Just</code> constructor, we can fill in that type hole and complete this branch of the <code>case</code> expression.</p>
+<p>Now if we recognize that <code>b -&gt; Optional b</code> is the type of the <code>Full</code> constructor, we can fill in that type hole and complete this branch of the <code>case</code> expression.</p>
 === frame 1.0
 ==== code
 <div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
-<a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a><span>
-</span><a class="sourceLine" id="cb1-3" data-line-number="3"><span>  </span><span class="dt"><span>Full</span></span><span> x </span><span class="ot"><span>-></span></span><span> <span style="background:#e0f0e0;">_</span> (f x)</span></a><span>
-</span><a class="sourceLine" id="cb1-4" data-line-number="4">  <span class="dt">Empty</span> <span class="ot">-&gt;</span> _empty</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">  <span class="dt">Full</span> x <span class="ot">-&gt;</span> _ (f x)</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">  <span class="dt">Empty</span> <span class="ot">-&gt;</span> _empty</a>
 <a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
 <a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
 <a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
@@ -6634,7 +6765,7 @@ Empty :: Optional a
  
  
  </code></pre>
-=== frame 3.0
+=== frame 30.0
 ==== code
 <div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
 <a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a>
@@ -6664,9 +6795,11 @@ Empty :: Optional a
  
  </code></pre>
 == section
+=== audio
+exercises/mapOptional/part-26.mp3
 === explanation
 <p>We might also do this in another order, depending on what jumps out at us.</p>
-=== frame 3.0
+=== frame 30.0
 ==== code
 <div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
 <a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a>
@@ -6696,6 +6829,8 @@ Empty :: Optional a
  
  </code></pre>
 == section
+=== audio
+exercises/mapOptional/part-27.mp3
 === explanation
 <p>If the first thing that we spot is the need to use the <code>Full</code> constructor, we end up with a different type hole.</p>
 === frame 1.0
@@ -7046,7 +7181,7 @@ Empty :: Optional a
  
  
  </code></pre>
-=== frame 3.0
+=== frame 30.0
 ==== code
 <div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
 <a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a><span>
@@ -7064,10 +7199,10 @@ Empty :: Optional a
 ==== terminal
 <pre><code><span>> :r
 • Found hole: <span style="background:#e0f0e0;">_</span> :: b
+• Relevant bindings include
+  f :: a -> b
+  x :: a
 ...
- 
- 
- 
  
  
  
@@ -7076,14 +7211,16 @@ Empty :: Optional a
  
  </span></code></pre>
 == section
+=== audio
+exercises/mapOptional/part-28.mp3
 === explanation
 <p>After that we might bring <code>f</code> into play …</p>
 === frame 1.0
 ==== code
 <div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
-<a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a><span>
-</span><a class="sourceLine" id="cb1-3" data-line-number="3"><span>  </span><span class="dt"><span>Full</span></span><span> x </span><span class="ot"><span>-></span></span><span> </span><span class="dt"><span>Full</span></span><span> <span style="background:#e0f0e0;">_</span></span></a><span>
-</span><a class="sourceLine" id="cb1-4" data-line-number="4">  <span class="dt">Empty</span> <span class="ot">-&gt;</span> _empty</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">  <span class="dt">Full</span> x <span class="ot">-&gt;</span> <span class="dt">Full</span> _</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">  <span class="dt">Empty</span> <span class="ot">-&gt;</span> _empty</a>
 <a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
 <a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
 <a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
@@ -7397,7 +7534,7 @@ Empty :: Optional a
  
  
  </code></pre>
-=== frame 3.0
+=== frame 30.0
 ==== code
 <div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
 <a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a><span>
@@ -7415,9 +7552,9 @@ Empty :: Optional a
 ==== terminal
 <pre><code><span>> :r
 • Found hole: <span style="background:#e0f0e0;">_</span> :: a
+• Relevant bindings include
+  x :: a
 ...
- 
- 
  
  
  
@@ -7427,14 +7564,16 @@ Empty :: Optional a
  
  </span></code></pre>
 == section
+=== audio
+exercises/mapOptional/part-29.mp3
 === explanation
 <p>… and then use <code>x</code> to fill in the type hole and complete this case.</p>
 === frame 1.0
 ==== code
 <div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
-<a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a><span>
-</span><a class="sourceLine" id="cb1-3" data-line-number="3"><span>  </span><span class="dt"><span>Full</span></span><span> x </span><span class="ot"><span>-></span></span><span> </span><span class="dt"><span>Full</span></span><span> (f <span style="background:#e0f0e0;">_</span>)</span></a><span>
-</span><a class="sourceLine" id="cb1-4" data-line-number="4">  <span class="dt">Empty</span> <span class="ot">-&gt;</span> _empty</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">  <span class="dt">Full</span> x <span class="ot">-&gt;</span> <span class="dt">Full</span> (f _)</a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">  <span class="dt">Empty</span> <span class="ot">-&gt;</span> _empty</a>
 <a class="sourceLine" id="cb1-5" data-line-number="5"> </a>
 <a class="sourceLine" id="cb1-6" data-line-number="6"> </a>
 <a class="sourceLine" id="cb1-7" data-line-number="7"> </a>
@@ -7516,7 +7655,7 @@ Empty :: Optional a
  
  
  </code></pre>
-=== frame 3.0
+=== frame 30.0
 ==== code
 <div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
 <a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a>
@@ -7546,10 +7685,12 @@ Empty :: Optional a
  
  </code></pre>
 == section
+=== audio
+exercises/mapOptional/part-30.mp3
 === explanation
 <p>Now we need to deal with the case where <code>o</code> is Empty.</p>
 <p>We need to produce and <code>Optional b</code>, and we don’t have anything in scope that has the type <code>b</code> or that can be converted to the type <code>b</code>. This means that we can’t use the <code>Full</code> constructor.</p>
-=== frame 3.0
+=== frame 30.0
 ==== code
 <div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
 <a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a>
@@ -7579,6 +7720,8 @@ Empty :: Optional a
  
  </code></pre>
 == section
+=== audio
+exercises/mapOptional/part-31.mp3
 === explanation
 <p>This means that our only choice that will make the program compile is to use the <code>Empty</code> constructor.</p>
 === frame 5.0e-2
@@ -7668,7 +7811,7 @@ Empty :: Optional a
  
  
  </code></pre>
-=== frame 3.0
+=== frame 30.0
 ==== code
 <div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ot">mapOptional ::</span> (a <span class="ot">-&gt;</span> b) <span class="ot">-&gt;</span> <span class="dt">Optional</span> a <span class="ot">-&gt;</span> <span class="dt">Optional</span> b</a>
 <a class="sourceLine" id="cb1-2" data-line-number="2">mapOptional <span class="fu">=</span> \f o <span class="ot">-&gt;</span> <span class="kw">case</span> o <span class="kw">of</span></a>
@@ -7698,10 +7841,12 @@ Empty :: Optional a
  
  </code></pre>
 == section
+=== audio
+exercises/mapOptional/part-32.mp3
 === explanation
 <p>If you look in the comments above the exercise, you will see two test cases along with their expected values.</p>
 <p>You can test your solution by typing this code into <code>ghci</code> and checking that the outputs from your solution match the expected solution.</p>
-=== frame 3.0
+=== frame 30.0
 ==== code
 <div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="co">-- | Map the given function on the possible value.</span></a>
 <a class="sourceLine" id="cb1-2" data-line-number="2"><span class="co">--</span></a>
@@ -7731,6 +7876,8 @@ Empty :: Optional a
  
  </code></pre>
 == section
+=== audio
+exercises/mapOptional/part-33.mp3
 === explanation
 <p>We check that the first test passes …</p>
 === frame 1.0
@@ -8487,7 +8634,7 @@ Empty :: Optional a
  
  
  </code></pre>
-=== frame 3.0
+=== frame 30.0
 ==== code
 <div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="co">-- | Map the given function on the possible value.</span></a>
 <a class="sourceLine" id="cb1-2" data-line-number="2"><span class="co">--</span></a>
@@ -8517,6 +8664,8 @@ Empty
  
  </code></pre>
 == section
+=== audio
+exercises/mapOptional/part-34.mp3
 === explanation
 <p>… and that the second test passes.</p>
 === frame 5.0e-2
@@ -9331,7 +9480,7 @@ Empty
  
  
  </code></pre>
-=== frame 3.0
+=== frame 30.0
 ==== code
 <div class="sourceCode" id="cb1"><pre class="sourceCode haskell"><code class="sourceCode haskell"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="co">-- | Map the given function on the possible value.</span></a>
 <a class="sourceLine" id="cb1-2" data-line-number="2"><span class="co">--</span></a>
