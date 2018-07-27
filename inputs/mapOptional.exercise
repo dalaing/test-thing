@@ -1,7 +1,7 @@
 -- Title mapOptional
 == section
 === audio
-exercises/mapOptional/part01.mp3
+exercises/mapOptional/part-01.mp3
 === explanation
 This is our first exercise.
 === code direct
@@ -9,7 +9,7 @@ This is our first exercise.
     | mapOptional = error "todo"
 == section
 === audio
-exercises/mapOptional/part02.mp3
+exercises/mapOptional/part-02.mp3
 === explanation
 It currently compiles...
 === terminal direct
@@ -23,7 +23,7 @@ It currently compiles...
 
 == section
 === audio
-exercises/mapOptional/part03.mp3
+exercises/mapOptional/part-03.mp3
 === explanation
 ... but it doesn't do what we want.
 === terminal typed
@@ -38,6 +38,8 @@ exercises/mapOptional/part03.mp3
     | ...
 
 == section
+=== audio
+exercises/mapOptional/part-04.mp3
 === explanation
 Remember that all functions take one argument in Haskell.
 === terminal direct
@@ -47,6 +49,8 @@ Remember that all functions take one argument in Haskell.
     | mapOptional = error "todo"
 
 == section
+=== audio
+exercises/mapOptional/part-05.mp3
 === explanation
 If we see that we need a function, we write a lambda.
 === terminal direct
@@ -56,6 +60,8 @@ If we see that we need a function, we write a lambda.
     | mapOptional = \f -> _
 
 == section 
+=== audio
+exercises/mapOptional/part-06.mp3
 === explanation
 We have left a type hole here.
 === code typed
@@ -65,8 +71,15 @@ We have left a type hole here.
 1   |                     *
 
 == section
+=== audio
+exercises/mapOptional/part-07.mp3
 === explanation
 These type holes can give us some explanation about what needs to go in that space.
+=== code direct
+    | mapOptional :: (a -> b) -> (Optional a -> Optional b)
+1   | mapOptional = \f -> _
+----|-----------------------
+1   |                     *
 === terminal direct
     | >
 === terminal typed
@@ -90,6 +103,8 @@ These type holes can give us some explanation about what needs to go in that spa
 2       |                *
 
 == section
+=== audio
+exercises/mapOptional/part-08.mp3
 === explanation
 We still need a function, so we write another lambda.
 === terminal direct
@@ -99,6 +114,8 @@ We still need a function, so we write another lambda.
     | mapOptional = \f -> \o -> _
 
 == section
+=== audio
+exercises/mapOptional/part-09.mp3
 === explanation
 For convenience, we can merge these into a single lambda...
 === code typed
@@ -106,6 +123,8 @@ For convenience, we can merge these into a single lambda...
     | mapOptional = \f o -> _
 
 == section
+=== audio
+exercises/mapOptional/part-10.mp3
 === explanation
 ... or we can use the syntactic sugar that lets us treat them more like function arguments.
 === code typed
@@ -113,13 +132,17 @@ For convenience, we can merge these into a single lambda...
     | mapOptional f o = _
 
 == section
+=== audio
+exercises/mapOptional/part-11.mp3
 === explanation
 All of these are equivalent, so we'll just pick one that makes sense to us.
 === code typed
     | mapOptional :: (a -> b) -> Optional a -> Optional b
-    | mapOptional = \f o = _
+    | mapOptional = \f o -> _
 
 == section
+=== audio
+exercises/mapOptional/part-12.mp3
 === explanation
 These new type hole has `o` in the relevant bindings and a more refined goal.
 === terminal direct
@@ -148,6 +171,8 @@ These new type hole has `o` in the relevant bindings and a more refined goal.
 3                |                  *
 
 == section
+=== audio
+exercises/mapOptional/part-13.mp3
 === explanation
 Remember that the `Optional` type has two constructors.
 === terminal direct
@@ -160,6 +185,8 @@ Remember that the `Optional` type has two constructors.
  | >
 
 == section
+=== audio
+exercises/mapOptional/part-14.mp3
 === explanation
 The `Full` constructor takes one argument ...
 === terminal typed
@@ -174,6 +201,8 @@ The `Full` constructor takes one argument ...
  | >
 
 == section
+=== audio
+exercises/mapOptional/part-15.mp3
 === explanation
 ... and the `Empty` constructor takes no arguments.
 === terminal typed
@@ -192,6 +221,8 @@ The `Full` constructor takes one argument ...
  | >
 
 == section
+=== audio
+exercises/mapOptional/part-16.mp3
 === explanation
 We will use a `case` expression to work out which constructor `o` was built with.
 === terminal direct
@@ -201,6 +232,8 @@ We will use a `case` expression to work out which constructor `o` was built with
   | mapOptional = \f o -> case o of
 
 == section
+=== audio
+exercises/mapOptional/part-17.mp3
 === explanation
 If `o` was constructed with the `Full` constructor, we get access to the value that was given to the constructor.
 === terminal direct
@@ -213,6 +246,8 @@ If `o` was constructed with the `Full` constructor, we get access to the value t
 1   |        *
 
 == section
+=== audio
+exercises/mapOptional/part-18.mp3
 === explanation
 If `o` was constructed with the `Empty` constructor, there is no more information about that constructor to access.
 === terminal direct
@@ -224,6 +259,8 @@ If `o` was constructed with the `Empty` constructor, there is no more informatio
     |   Empty -> _empty
 
 == section
+=== audio
+exercises/mapOptional/part-19.mp3
 === explanation
 We have named the type holes so that we don't get confused about which is which.
 === terminal direct
@@ -246,6 +283,8 @@ We have named the type holes so that we don't get confused about which is which.
     |   o :: Optional a
 
 == section
+=== audio
+exercises/mapOptional/part-20.mp3
 === explanation
 We get information for the type hole we named `_full` ...
 === terminal direct
@@ -279,8 +318,10 @@ We get information for the type hole we named `_full` ...
 4              |        *
 
 == section
+=== audio
+exercises/mapOptional/part-21.mp3
 === explanation
-... and we get information for the type hole we named `_empty`
+... and we get information for the type hole we named `_empty`.
 === terminal direct
          | > :r
          | • Found hole: _full :: Optional b
@@ -310,6 +351,8 @@ We get information for the type hole we named `_full` ...
 3              |                  *
 
 == section
+=== audio
+exercises/mapOptional/part-22.mp3
 === explanation
 First we'll deal with the case where `o` was constructed using `Full`.
 === terminal direct
@@ -321,6 +364,8 @@ First we'll deal with the case where `o` was constructed using `Full`.
     |   Empty -> _empty
 
 == section
+=== audio
+exercises/mapOptional/part-23.mp3
 === explanation
 We can take a guess that we'll be using `x`, and then insert a new type hole to see what we should do after that.
 === terminal direct
@@ -337,11 +382,15 @@ We can take a guess that we'll be using `x`, and then insert a new type hole to 
 === terminal direct
     | > :r
 1   | • Found hole: _ :: a -> Optional b
+    | • Relevant bindings include
+    |   f :: a -> b
     | ...
 ----|------------------
 1   |               *
 
 == section
+=== audio
+exercises/mapOptional/part-24.mp3
 === explanation
 We might then reason that we could use `f` in order to convert our value of type `a` to a value of type `b`.
 === terminal direct
@@ -363,8 +412,10 @@ We might then reason that we could use `f` in order to convert our value of type
 1   |               *
 
 == section
+=== audio
+exercises/mapOptional/part-25.mp3
 === explanation
-Now if we recognize that `b -> Optional b` is the type of the `Just` constructor, we can fill in that type hole and complete this branch of the `case` expression.
+Now if we recognize that `b -> Optional b` is the type of the `Full` constructor, we can fill in that type hole and complete this branch of the `case` expression.
 === terminal direct
     | >
 === code typed
@@ -374,6 +425,8 @@ Now if we recognize that `b -> Optional b` is the type of the `Just` constructor
     |   Empty -> _empty
 
 == section
+=== audio
+exercises/mapOptional/part-26.mp3
 === explanation
 We might also do this in another order, depending on what jumps out at us.
 === terminal direct
@@ -385,6 +438,8 @@ We might also do this in another order, depending on what jumps out at us.
     |   Empty -> _empty
 
 == section
+=== audio
+exercises/mapOptional/part-27.mp3
 === explanation
 If the first thing that we spot is the need to use the `Full` constructor, we end up with a different type hole.
 === terminal direct
@@ -401,11 +456,16 @@ If the first thing that we spot is the need to use the `Full` constructor, we en
 === terminal direct
     | > :r
 1   | • Found hole: _ :: b
+    | • Relevant bindings include
+    |   f :: a -> b
+    |   x :: a
     | ...
 ----|------------------
 1   |               *
 
 == section
+=== audio
+exercises/mapOptional/part-28.mp3
 === explanation
 After that we might bring `f` into play ...
 === terminal direct
@@ -422,11 +482,15 @@ After that we might bring `f` into play ...
 === terminal direct
     | > :r
 1   | • Found hole: _ :: a
+    | • Relevant bindings include
+    |   x :: a
     | ...
 ----|------------------
 1   |               *
 
 == section
+=== audio
+exercises/mapOptional/part-29.mp3
 === explanation
 ... and then use `x` to fill in the type hole and complete this case.
 === terminal direct
@@ -438,6 +502,8 @@ After that we might bring `f` into play ...
     |   Empty -> _empty
 
 == section
+=== audio
+exercises/mapOptional/part-30.mp3
 === explanation
 Now we need to deal with the case where `o` is Empty.
 
@@ -451,6 +517,8 @@ We need to produce and `Optional b`, and we don't have anything in scope that ha
     |   Empty -> _empty
 
 == section
+=== audio
+exercises/mapOptional/part-31.mp3
 === explanation
 This means that our only choice that will make the program compile is to use the `Empty` constructor.
 === code typed
@@ -460,6 +528,8 @@ This means that our only choice that will make the program compile is to use the
     |   Empty -> Empty
 
 == section
+=== audio
+exercises/mapOptional/part-32.mp3
 === explanation
 If you look in the comments above the exercise, you will see two test cases along with their expected values.
 
@@ -478,6 +548,8 @@ You can test your solution by typing this code into `ghci` and checking that the
   |  -> Optional b
 
 == section
+=== audio
+exercises/mapOptional/part-33.mp3
 === explanation
 We check that the first test passes ...
 === terminal direct
@@ -490,6 +562,8 @@ We check that the first test passes ...
   | >
 
 == section
+=== audio
+exercises/mapOptional/part-34.mp3
 === explanation
 ... and that the second test passes.
 === terminal typed
